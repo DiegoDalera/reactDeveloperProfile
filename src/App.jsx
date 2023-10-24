@@ -22,11 +22,11 @@ function App() {
         <Element name="about">
           <About />
         </Element>
-        <Element name="portfolio">
-          <Portfolio />
-        </Element>
         <Element name="skills">
           <Skills />
+        </Element>
+        <Element name="portfolio">
+          <Portfolio />
         </Element>
         <Element name="contact">
           <Contact />

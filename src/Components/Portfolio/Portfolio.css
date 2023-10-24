@@ -12,3 +12,12 @@
     align-items: flex-start;
     background-color: rgb(100, 128, 239);
 }
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
