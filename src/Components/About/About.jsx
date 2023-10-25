@@ -5,7 +5,7 @@ import MiImagen from "../../assets/experiencia_img.jpg";
 function About() {
   return (
     <div className="About">
-      <h2>Mi experiencia</h2>
+      <h2>Sobre mi</h2>
 
       <div className="experiencia">
         <img src={MiImagen} alt="Diego Dalera" className="img-experiencia" />

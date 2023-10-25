@@ -14,8 +14,9 @@ function App() {
 
   return (
     <>
+      <Navbar />
+
       <div className="main">
-        <Navbar />
         <Element name="home">
           <Header />
         </Element>
