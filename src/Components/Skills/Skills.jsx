@@ -1,31 +1,26 @@
-import React from 'react'
-import './Skills.css'
-import Card from './Card'
+import React from "react";
+import "./Skills.css";
+import Card from "./Card";
+import skillsData from "./skillsData.json";
 
 const Skills = () => {
   return (
-    <div className='skills'>
-      <Card link={"#"} icono={"fa-brands fa-wordpress"} titulo={"desarrollador Word Press"} descripcion={
-          "Poseo habilidades en lenguajes como HTML, CSS, JavaScript, PHP y MySQL. También tengo experiencia en el manejo de WordPress. MisHabilidades incluyen: Seguridad, optimización, solución de problemas técnicos y colaboración en equipo. Además, de integrar Servicios     web, conocer SEO y estrategias de marketing digital."
-        }/>
-              <Card link={"#"} icono={"fa-brands fa-wordpress"} titulo={"desarrollador Word Press"} descripcion={
-          "Poseo habilidades en lenguajes como HTML, CSS, JavaScript, PHP y MySQL. También tengo experiencia en el manejo de WordPress. MisHabilidades incluyen: Seguridad, optimización, solución de problemas técnicos y colaboración en equipo. Además, de integrar Servicios     web, conocer SEO y estrategias de marketing digital."
-        }/>
-              <Card link={"#"} icono={"fa-brands fa-wordpress"} titulo={"desarrollador Word Press"} descripcion={
-          "Poseo habilidades en lenguajes como HTML, CSS, JavaScript, PHP y MySQL. También tengo experiencia en el manejo de WordPress. MisHabilidades incluyen: Seguridad, optimización, solución de problemas técnicos y colaboración en equipo. Además, de integrar Servicios     web, conocer SEO y estrategias de marketing digital."
-        }/>
-              <Card link={"#"} icono={"fa-brands fa-wordpress"} titulo={"desarrollador Word Press"} descripcion={
-          "Poseo habilidades en lenguajes como HTML, CSS, JavaScript, PHP y MySQL. También tengo experiencia en el manejo de WordPress. MisHabilidades incluyen: Seguridad, optimización, solución de problemas técnicos y colaboración en equipo. Además, de integrar Servicios     web, conocer SEO y estrategias de marketing digital."
-        }/>
-              <Card link={"#"} icono={"fa-brands fa-wordpress"} titulo={"desarrollador Word Press"} descripcion={
-          "Poseo habilidades en lenguajes como HTML, CSS, JavaScript, PHP y MySQL. También tengo experiencia en el manejo de WordPress. MisHabilidades incluyen: Seguridad, optimización, solución de problemas técnicos y colaboración en equipo. Además, de integrar Servicios     web, conocer SEO y estrategias de marketing digital."
-        }/>
-              <Card link={"#"} icono={"fa-brands fa-wordpress"} titulo={"desarrollador Word Press"} descripcion={
-          "Poseo habilidades en lenguajes como HTML, CSS, JavaScript, PHP y MySQL. También tengo experiencia en el manejo de WordPress. MisHabilidades incluyen: Seguridad, optimización, solución de problemas técnicos y colaboración en equipo. Además, de integrar Servicios     web, conocer SEO y estrategias de marketing digital."
-        }/>
- 
-    </div>
-  )
-}
+    <div className="skills">
+      <div className="skills-title">
+        <h2>Mis habilidades</h2>
+      </div>
 
-export default Skills
+      {skillsData.map((skill, index) => (
+        <Card
+          key={index}
+          link={skill.link}
+          icono={skill.icono}
+          titulo={skill.titulo}
+          descripcion={skill.descripcion}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default Skills;
