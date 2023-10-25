@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
+import Logo from '../../assets/logo.jpg';
+
 
 const Navbar = () => {
   return (
     <>
       <nav className="topnav" id="myTopnav">
         
-        <div className="logo">Logo</div>
+        <div className="logo"><img src={Logo} alt="Logo" className="logo"/></div>
 
         <ul className="navbar-menu">
           <li className="nav-item active">

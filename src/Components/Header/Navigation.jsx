@@ -1,8 +1,13 @@
 import React from "react";
+import './Navigation.css'
 
 const Navigation = () => {
   return (
-    <h1>swip</h1>
+    <div className="slider">
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
   );
 };
 
