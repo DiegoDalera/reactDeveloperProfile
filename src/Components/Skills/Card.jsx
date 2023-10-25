@@ -1,19 +1,17 @@
 import React from "react";
-import './Card.css'
+import "./Card.css";
 
-const Card = () => {
+const Card = ({ link, icono, titulo, descripcion }) => {
   return (
-      <article class="card">
-        <a href="#">
-          <i class="fa-brands fa-html5 fa-2xl"> card icono</i>
-          <div class="card_contenido">
-            <h2 class="card_titulo">card titulo</h2>
-            <p class="card_descripcion">
-             card texto
-            </p>
-          </div>
-        </a>
-      </article>
+    <article class="card">
+      <a href={link}>
+        <i class={icono}></i>
+        <div class="card_contenido">
+          <h2 class="card_titulo">{titulo}</h2>
+          <p class="card_descripcion">{descripcion}</p>
+        </div>
+      </a>
+    </article>
   );
 };
 
