@@ -1,61 +1,26 @@
 import React from "react";
 import "./Portfolio.css";
-import anto from "../../assets/proyectos/Anto.jpg";
 import Card_p from "./Card_p";
+import portfolioData from "./portfolioData.json"; // Importa los datos
 
 const Portfolio = () => {
   return (
-    <div>
-      <h2>My Proyects</h2>
-      
+    <div className="portfolio">
+      <div className="portfolio-title">
+        <h2>Portfolio</h2>
+      </div>
+
       <div className="cards">
-        <Card_p
-          thumb={anto}
-          title={"texto"}
-          text={"texto descripcion"}
-          demoLink={"https://antoslashes.vercel.app/"}
-          sourceLink={"https://github.com/DiegoDalera/turneroEstetica"}
-        />
-
-        <Card_p
-          thumb={anto}
-          title={"texto"}
-          text={"texto descripcion"}
-          demoLink={"https://antoslashes.vercel.app/"}
-          sourceLink={"https://github.com/DiegoDalera/turneroEstetica"}
-        />
-
-        <Card_p
-          thumb={anto}
-          title={"texto"}
-          text={"texto descripcion"}
-          demoLink={"https://antoslashes.vercel.app/"}
-          sourceLink={"https://github.com/DiegoDalera/turneroEstetica"}
-        />
-
-        <Card_p
-          thumb={anto}
-          title={"texto"}
-          text={"texto descripcion"}
-          demoLink={"https://antoslashes.vercel.app/"}
-          sourceLink={"https://github.com/DiegoDalera/turneroEstetica"}
-        />
-
-        <Card_p
-          thumb={anto}
-          title={"texto"}
-          text={"texto descripcion"}
-          demoLink={"https://antoslashes.vercel.app/"}
-          sourceLink={"https://github.com/DiegoDalera/turneroEstetica"}
-        />
-
-        <Card_p
-          thumb={anto}
-          title={"texto"}
-          text={"texto descripcion"}
-          demoLink={"https://antoslashes.vercel.app/"}
-          sourceLink={"https://github.com/DiegoDalera/turneroEstetica"}
-        />
+        {portfolioData.map((project, index) => (
+          <Card_p
+            key={index}
+            thumb={project.thumb}
+            title={project.title}
+            text={project.text}
+            demoLink={project.demoLink}
+            sourceLink={project.sourceLink}
+          />
+        ))}
       </div>
     </div>
   );

@@ -1,0 +1,16 @@
+.quien_soy_redes {
+    padding-left: 50px;
+    margin: 10px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.quien_soy_redes .redes {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0px;
+}

@@ -3,12 +3,12 @@ import "./Card.css";
 
 const Card = ({ link, icono, titulo, descripcion }) => {
   return (
-    <article class="card">
+    <article className="card">
       <a href={link}>
-        <i class={icono}></i>
-        <div class="card_contenido">
-          <h2 class="card_titulo">{titulo}</h2>
-          <p class="card_descripcion">{descripcion}</p>
+        <i className={icono}></i>
+        <div className="card_contenido">
+          <h2 className="card_titulo">{titulo}</h2>
+          <p className="card_descripcion">{descripcion}</p>
         </div>
       </a>
     </article>

@@ -27,9 +27,14 @@
 
 .nav-item {
     margin: 5px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .nav-item:hover {
     color: yellow
 }
+
+.nav-item.active {
+    color: yellow;
+  }
+  

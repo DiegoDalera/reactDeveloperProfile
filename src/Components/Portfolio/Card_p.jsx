@@ -5,7 +5,7 @@ const Card_p = ({ thumb, title, text, demoLink, sourceLink }) => {
   return (
     <div className="card">
       <div className="card-thumbnail">
-        <img src={thumb} alt="" />
+        <img src={thumb} alt="" className="proyect-card-thumb"/>
       </div>
 
       <div className="card-body">
