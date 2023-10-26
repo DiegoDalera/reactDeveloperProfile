@@ -8,39 +8,64 @@ const Contact = () => {
         <h2>Contact Us</h2>
       </div>
 
-      <form className="form" action="">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore.
-        </p>
-        <label class="form-group">
-          <input type="text" class="form-control" required="" />
-          <span>Your Name</span>
-          <span class="border"></span>
-        </label>
-        <label class="form-group">
-          <input type="text" class="form-control" required="" />
-          <span for="">Your Mail</span>
-          <span class="border"></span>
-        </label>
-        <label class="form-group">
-          <textarea
-            name=""
-            id=""
-            class="form-control"
-            required=""
-            data-lt-tmp-id="lt-950560"
-            spellcheck="false"
-            data-gramm="false"
-          ></textarea>
-          <span for="">Your Message</span>
-          <span class="border"></span>
-        </label>
-        <button>
-          Submit
-          <i class="zmdi zmdi-arrow-right"></i>
-        </button>
-      </form>
+      <div className="contact-form">
+        <form
+          id="contact-form"
+          action="mail.php"
+          method="post"
+          class="contact-form bg-white"
+        >
+          <div class="row">
+            <div class="col-lg-6 form-group">
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                required=""
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-lg-6 form-group">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                required=""
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              name="subject"
+              required=""
+              placeholder="Subject"
+            />
+          </div>
+
+          <div class="form-group">
+            <textarea
+              name="message"
+              id=""
+              class="form-control"
+              required=""
+              placeholder="Message"
+              data-lt-tmp-id="lt-591898"
+              spellcheck="false"
+              data-gramm="false"
+            ></textarea>
+          </div>
+
+          <div class="form-btn text-center">
+            <button class="button" type="submit">
+              Send Message
+            </button>
+            <p class="form-message"></p>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };

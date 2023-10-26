@@ -1,15 +1,18 @@
-.card {
-    position: relative;
+.card-porftfolio {
     display: flex;
     flex-direction: column;
-    min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: 0.25rem;
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 3px;
+    align-items: center;
 }
 
-.proyect-card-thumb{
-width: 100%;
+.proyect-card-thumb {
+    width: 100%;
 }

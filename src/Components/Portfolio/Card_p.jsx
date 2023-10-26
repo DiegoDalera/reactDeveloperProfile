@@ -3,7 +3,7 @@ import "./Card_p.css";
 
 const Card_p = ({ thumb, title, text, demoLink, sourceLink }) => {
   return (
-    <div className="card">
+    <div className="card-porftfolio">
       <div className="card-thumbnail">
         <img src={thumb} alt="" className="proyect-card-thumb"/>
       </div>

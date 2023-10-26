@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, Element } from "react-scroll";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
