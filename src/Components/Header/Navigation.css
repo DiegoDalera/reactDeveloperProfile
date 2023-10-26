@@ -3,6 +3,7 @@
   width: 100vw;
   height: 100vh;
   position: relative;
+  opacity: 0.8;
 }
 
 .slider .slide {
@@ -14,6 +15,7 @@
   background-size: cover;
   background-position: center;
   animation: slider 7.5s infinite;
+  
 }
 
 .slider .slide:nth-child(1) {
@@ -34,6 +36,7 @@
   background-size: cover;
   animation-delay: -5s;
 }
+
 
 @keyframes slider {
 

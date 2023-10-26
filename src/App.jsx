@@ -9,6 +9,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import PortfolioBoot from "./Components/PortfolioBoot/PortfolioBoot";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,7 +29,7 @@ function App() {
           <Skills />
         </Element>
         <Element name="portfolio">
-          <Portfolio />
+          <PortfolioBoot />
         </Element>
         <Element name="contact">
           <Contact />

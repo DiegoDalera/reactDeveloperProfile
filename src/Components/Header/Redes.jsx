@@ -1,5 +1,6 @@
 import React from "react";
-import './Redes.css'
+import "./Redes.css";
+import { Github, Linkedin,Instagram } from "react-bootstrap-icons";
 
 const Redes = () => {
   return (
@@ -8,7 +9,7 @@ const Redes = () => {
         <ul className="menu-redes">
           <li>
             <a href="https://github.com/DiegoDalera" target="_blank">
-              <i className="bi bi-github">git</i>
+            <Github color="white" size={32}/>
             </a>
           </li>
           <li>
@@ -16,12 +17,7 @@ const Redes = () => {
               href="https://www.linkedin.com/in/diego-martin-dalera/"
               target="_blank"
             >
-              <i className="bi bi-linkedin">link</i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" target="_blank">
-              <i className="bi bi-twitter">twii</i>
+              <Linkedin color="white" size={32} />
             </a>
           </li>
           <li>
@@ -29,7 +25,7 @@ const Redes = () => {
               href="https://www.instagram.com/diegomartin.arg/"
               target="_blank"
             >
-              <i className="bi bi-instagram">inst</i>
+              <Instagram color="white" size={32} />
             </a>
           </li>
         </ul>

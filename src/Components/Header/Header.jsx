@@ -8,14 +8,20 @@ const Header = () => {
     <>
       <div className="hero-content h-100 ">
         <section className="quien_soy_info">
-          <h1>Diego Martin Dalera</h1>
+          <h1>Diego Dalera</h1>
           <h2>Licenciado en Gestion Educativa &amp; Desarrollador Web</h2>
-          <a className="btn" href="/pages/contacto">
-            Contactame
-          </a>
-          <a href="archivos/cvDiegoDalera.pdf" className="btn" target="_blank">
-            CV
-          </a>
+          <div className="links-header">
+            <a className="btn" href="/pages/contacto">
+              Contactame
+            </a>
+            <a
+              href="archivos/cvDiegoDalera.pdf"
+              className="btn"
+              target="_blank"
+            >
+              CV
+            </a>
+          </div>
         </section>
         <Redes />
       </div>

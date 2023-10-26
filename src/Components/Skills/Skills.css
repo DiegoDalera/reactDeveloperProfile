@@ -15,7 +15,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+ 
 }
+
+
 
 .skills-title h2 {
     text-transform: uppercase;
@@ -24,7 +27,7 @@
     padding-bottom: 15px;
     margin-bottom: 15px;
     line-height: 1;
-    background-image: linear-gradient(to right, black 50%, yellow 50%);
+    background-image: linear-gradient(to right, black 50%, rgb(255, 201, 0) 50%);
     background-size: 100% 4px;
     /* Ajusta el grosor de la línea según sea necesario */
     background-repeat: no-repeat;
