@@ -5,12 +5,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    background-color: blueviolet;
 }
 
-.quien_soy_redes .redes {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 0px;
+.quien_soy_redes .menu-redes {
+    list-style-type: none;
+
+    
 }

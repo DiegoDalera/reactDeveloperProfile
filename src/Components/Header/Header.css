@@ -2,7 +2,7 @@
 
 .header {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,14 +15,11 @@
     max-width: 40%;
     background-color: #ffc900;
     opacity: 0.9;
+    height: 100%;
 }
 
 .h-100 {
-    height: 80vh!important;
-}
-
-.hero-content .quien_soy_info {
-    padding-left: 50px;
+    height: 100vh!important;
 }
 
 .hero-content h1{
@@ -39,6 +36,17 @@
     margin: 10px 0px;
     font-weight: 500;
 }
+
+.hero-content .quien_soy_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
 
 .hero-content .quien_soy_info .btn {
     width: 150px;

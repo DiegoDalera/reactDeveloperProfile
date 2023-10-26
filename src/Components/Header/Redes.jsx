@@ -5,10 +5,10 @@ const Redes = () => {
   return (
     <>
       <section className="quien_soy_redes">
-        <ul className="redes">
+        <ul className="menu-redes">
           <li>
             <a href="https://github.com/DiegoDalera" target="_blank">
-              <i className="bi bi-github"></i>
+              <i className="bi bi-github">git</i>
             </a>
           </li>
           <li>
@@ -16,12 +16,12 @@ const Redes = () => {
               href="https://www.linkedin.com/in/diego-martin-dalera/"
               target="_blank"
             >
-              <i className="bi bi-linkedin"></i>
+              <i className="bi bi-linkedin">link</i>
             </a>
           </li>
           <li>
             <a href="https://www.twitter.com" target="_blank">
-              <i className="bi bi-twitter"></i>
+              <i className="bi bi-twitter">twii</i>
             </a>
           </li>
           <li>
@@ -29,7 +29,7 @@ const Redes = () => {
               href="https://www.instagram.com/diegomartin.arg/"
               target="_blank"
             >
-              <i className="bi bi-instagram"></i>
+              <i className="bi bi-instagram">inst</i>
             </a>
           </li>
         </ul>
