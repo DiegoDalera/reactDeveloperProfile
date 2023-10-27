@@ -1,6 +1,6 @@
 .About {
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,6 @@
 }
 
 
-
 .experiencia {
     display: flex;
     flex-direction: row;
@@ -40,8 +39,9 @@
 }
 
 .img-experiencia {
-    width: 30%;
-}
+    width: 40%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    margin-right: 20px; /* Espacio entre la imagen y la descripción */
+  }
 
 .desc-experiencia {
     line-height: 1.5;
@@ -49,4 +49,17 @@
 
 .desc-experiencia p {
     margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) { /* Cambia este valor según tus necesidades */
+    .experiencia {
+      flex-direction: column;
+    }
+  
+    .img-experiencia {
+      margin-right: 0;
+      margin-bottom: 20px; /* Espacio entre la imagen y la descripción en pantallas pequeñas */
+      width: 100%; 
+    }
 }

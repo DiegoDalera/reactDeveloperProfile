@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Github, Linkedin,Instagram } from "react-bootstrap-icons";
 
 const Footer = () => {
   return (
@@ -9,22 +10,17 @@ const Footer = () => {
       <ul class="redes_sociales">
         <li>
           <a href="https://www.github.com" target="_blank">
-            <i class="bi bi-github"></i>
+          <Github color="white" size={20}/>
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com" target="_blank">
-            <i class="bi bi-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com" target="_blank">
-            <i class="bi bi-twitter"></i>
+          <Linkedin color="white" size={20} />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com" target="_blank">
-            <i class="bi bi-instagram"></i>
+          <Instagram color="white" size={20} />
           </a>
         </li>
       </ul>

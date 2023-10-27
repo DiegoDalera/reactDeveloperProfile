@@ -41,3 +41,11 @@
   letter-spacing: 1px;
   text-align: justify;
 }
+
+/* Responsive */
+@media (max-width: 768px) { /* Cambia este valor según tus necesidades */
+  .card {
+    width: 80%;
+  }
+
+}

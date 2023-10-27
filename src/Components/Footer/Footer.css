@@ -7,8 +7,19 @@
     padding: 20px;
 }
 
-.redes_sociales{
+.footer p {
+    color: white;
+    margin: 0px;
+}
 
+.redes_sociales {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
 
+.redes_sociales a{
+  margin: 5px;
 }

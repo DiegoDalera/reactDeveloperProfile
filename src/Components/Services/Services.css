@@ -1,33 +1,31 @@
-.skills {
+.services {
     width: 100%;
-    min-height: 80vh;
+    min-height: 50vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: #f8f9fa; 
+    background: linear-gradient(rgba(255 ,201 ,0 , 95%), rgba(255, 201, 0, 0.8)), url("../../assets/bg-code.jpg") fixed center center; 
 }
 
-.skills-title {
+
+.services-title {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
- 
 }
 
-
-
-.skills-title h2 {
+.services-title h2 {
     text-transform: uppercase;
     position: relative;
     font-size: 32px;
     padding-bottom: 15px;
     margin-bottom: 15px;
     line-height: 1;
-    background-image: linear-gradient(to right, black 50%, rgb(255, 201, 0) 50%);
+    background-image: linear-gradient(to right, black 50%, rgb(255, 255, 255) 50%);
     background-size: 100% 4px;
     /* Ajusta el grosor de la línea según sea necesario */
     background-repeat: no-repeat;
@@ -35,13 +33,11 @@
     /* Ajusta la posición de la línea según sea necesario */
 }
 
-/* Responsive */
-@media (max-width: 768px) { /* Cambia este valor según tus necesidades */
-    .skills {
-        width: 100%;
-        flex-direction:column;
-        align-items: center;
-        justify-content: center;
-    }
-
+.service-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }

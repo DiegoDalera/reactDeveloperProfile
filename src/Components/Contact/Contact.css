@@ -24,7 +24,7 @@
     padding-bottom: 15px;
     margin-bottom: 15px;
     line-height: 1;
-    background-image: linear-gradient(to right, black 50%, yellow 50%);
+    background-image: linear-gradient(to right, black 50%, rgb(255, 201, 0) 50%);
     background-size: 100% 4px;
     /* Ajusta el grosor de la línea según sea necesario */
     background-repeat: no-repeat;
@@ -33,8 +33,14 @@
 }
 
 .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:90%;
     padding: 60px;
     box-shadow: 0 0 10px #ccc;
+
 }
 
 .bg-white {
@@ -44,14 +50,14 @@
     margin: 0;
     border: none;
     background-color: #000;
-    color: #fff;
+    color: #f8f9fa;
     cursor: pointer;
     -webkit-transition: .3S;
     transition: .3S;
 }
 
 .button {
-    color: #fff;
+    color: #f8f9fa;
     display: inline-block;
     text-transform: uppercase;
     border: 2px solid;
@@ -65,9 +71,20 @@
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: #f8f9fa;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-control {
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
 }

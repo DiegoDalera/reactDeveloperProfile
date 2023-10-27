@@ -9,7 +9,8 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import PortfolioBoot from "./Components/PortfolioBoot/PortfolioBoot";
+import Services from "./Components/Services/Services";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,8 +29,11 @@ function App() {
         <Element name="skills">
           <Skills />
         </Element>
+        <Element name="Service">
+          <Services />
+        </Element>
         <Element name="portfolio">
-          <PortfolioBoot />
+          <Portfolio />
         </Element>
         <Element name="contact">
           <Contact />

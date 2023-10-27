@@ -9,6 +9,7 @@ const Contact = () => {
       </div>
 
       <div className="contact-form">
+        
         <form
           id="contact-form"
           action="mail.php"

@@ -1,0 +1,46 @@
+[
+    {
+      "thumb": "../../../public/proyectos/anto.jpg",
+      "title": "Sistema de Turnos - Estetica",
+      "text": "La applicacion permite ingresar los servicio  que ofrece la estetica dinamicamente y tambien los trabajadores. Luego segun la data ingresada generara los turnon disponibles permitiendo que los usuarios puedan seleccionarlos y reservarlos ",
+      "demoLink": "https://antoslashes.vercel.app/",
+      "sourceLink": "https://github.com/DiegoDalera/turneroEstetica"
+    },
+    {
+        "thumb": "../../../public/proyectos/memotest.jpg",
+        "title": "Memotest - Estetica",
+        "text": "Es el conocido juego del Memotest realizado en Javascript ",
+        "demoLink": "https://diegodalera.github.io/memoramaGame/",
+        "sourceLink": "https://github.com/DiegoDalera/memoramaGame"
+      },
+      {
+        "thumb": "../../../public/proyectos/carrito.jpg",
+        "title": "Carrito de compras - Javascript & Boostrap",
+        "text": "La aplicacion simula un carrito de compras sobre cursos de programacion permitiendo confirmar la compra una vez realizado el pedido ",
+        "demoLink": "https://diegodalera.github.io/boostrapJavascriptEcomerce/",
+        "sourceLink": "https://github.com/DiegoDalera/boostrapJavascriptEcomerce"
+      },
+      {
+          "thumb": "../../../public/proyectos/Anto.jpg",
+          "title": "Snake game - Javascript",
+          "text": "El conocido juego de la serpiente que aumenta su longitud al comer realizado con Javascript",
+          "demoLink": "https://snake-game-bay-theta.vercel.app/",
+          "sourceLink": "https://github.com/DiegoDalera/snakeGame"
+        },
+        {
+          "thumb": "../../../public/proyectos/piedra.jpg",
+          "title": "Piedra papel o tijera - Javascript",
+          "text": "el famoso jego de piegra pael o tijera en una version creada por mi en JS ",
+          "demoLink": "https://moonlit-moxie-0fedec.netlify.app/",
+          "sourceLink": "https://github.com/DiegoDalera/piedraPapelTijera"
+        },
+        {
+            "thumb": "../../../public/proyectos/Anto.jpg",
+            "title": "Sistema de Turnos - Estetica",
+            "text": "La applicacion permite ingresar los servicio  que ofrece la estetica dinamicamente y tambien los trabajadores. Luego segun la data ingresada generara los turnon disponibles permitiendo que los usuarios puedan seleccionarlos y reservarlos ",
+            "demoLink": "https://antoslashes.vercel.app/",
+            "sourceLink": "https://github.com/DiegoDalera/turneroEstetica"
+          }
+   
+  ]
+  

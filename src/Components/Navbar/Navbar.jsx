@@ -31,7 +31,7 @@ const Navbar = () => {
           
         </div>
         <ul className="navbar-menu">
-          {["home", "about", "skills", "portfolio", "contact"].map(
+          {["home", "about", "skills","services", "portfolio", "contact"].map(
             (section) => (
               <li
                 className={`nav-item ${

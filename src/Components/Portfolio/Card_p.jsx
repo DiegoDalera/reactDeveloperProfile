@@ -1,25 +1,17 @@
 import React from "react";
-import "./Card_p.css";
+import './Card_p.css'
 
-const Card_p = ({ thumb, title, text, demoLink, sourceLink }) => {
+const Card = ({ id, imageUrl, title, description }) => {
   return (
-    <div className="card-porftfolio">
-      <div className="card-thumbnail">
-        <img src={thumb} alt="" className="proyect-card-thumb"/>
+    <div className="item" id={id}>
+      <img src={imageUrl} alt={title} />
+      <div className="text">
+        <h3>{title}</h3>
+        <p>{description}</p>
       </div>
-
-      <div className="card-body">
-        <div className="title card-title">{title}</div>
-
-        <p className="card-text">{text}</p>
-
-        <div className="btn-grp">
-          <a href={demoLink}>Live Demo</a>
-          <a href={sourceLink}>Source Code</a>
-        </div>
-      </div> 
+      <div className="button">Learn More</div>
     </div>
   );
 };
 
-export default Card_p;
+export default Card;

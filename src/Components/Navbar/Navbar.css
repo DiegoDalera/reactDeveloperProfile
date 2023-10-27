@@ -34,14 +34,14 @@
 }
 
 .nav-item:hover {
-    color: yellow
+    color: #ffc900;
 }
 
 .nav-item.active {
-    color: yellow;
+    color: #ffc900;;
 }
 
 a.active {
-    color: yellow;
+    color: #ffc900;;
     text-decoration: none;
 }
