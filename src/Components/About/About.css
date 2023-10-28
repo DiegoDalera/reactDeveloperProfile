@@ -31,17 +31,28 @@
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    gap: 20px;
+    gap: 40px;
 }
 
-.experiencia p{
+.experiencia p {
     text-align: justify;
 }
 
+.neon-circle {
+    width: 95vh;
+    height: 65Vh;
+    border-radius: 50%;
+    overflow: hidden;
+    /* Oculta cualquier parte de la imagen que se salga del círculo */
+    box-shadow: 0 0 5px 3px rgb(255, 201, 0);
+    /* Efecto de borde neon amarillo */
+}
+
 .img-experiencia {
-    width: 40%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    margin-right: 20px; /* Espacio entre la imagen y la descripción */
-  }
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .desc-experiencia {
     line-height: 1.5;
@@ -52,14 +63,21 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) { /* Cambia este valor según tus necesidades */
-    .experiencia {
-      flex-direction: column;
+@media (max-width: 768px) {
+
+    .neon-circle {
+        width: 70vh; 
+        height: 70Vh;
     }
-  
+
+    .experiencia {
+        flex-direction: column;
+    }
+
     .img-experiencia {
-      margin-right: 0;
-      margin-bottom: 20px; /* Espacio entre la imagen y la descripción en pantallas pequeñas */
-      width: 100%; 
+
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
     }
 }

@@ -32,7 +32,7 @@
 }
 
 .slider .slide:nth-child(3) {
-  background-image: url('../../assets/slider_img/slide3.jpg');
+  background-image: url('../../assets/slider_img/slide4.jpeg');
   background-size: cover;
   animation-delay: -5s;
 }

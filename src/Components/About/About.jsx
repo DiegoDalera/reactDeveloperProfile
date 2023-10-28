@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import MiImagen from "../../assets/experiencia_img.jpg";
+import MiImagen from "../../assets/profile.jpg";
 
 function About() {
   return (
@@ -8,7 +8,12 @@ function About() {
       <h2>Sobre mi</h2>
 
       <div className="experiencia">
+
+      <div class="neon-circle">
         <img src={MiImagen} alt="Diego Dalera" className="img-experiencia" />
+    </div>
+
+
         <div className="desc-experiencia">
           <p>
             Soy desarrollador web y licenciado en gestión educativa con más de
