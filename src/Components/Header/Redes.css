@@ -23,3 +23,12 @@
 a:hover{
     color: black;
 }
+
+.icons {
+    color: white;
+    font-size: 32px;
+}
+
+.icons:hover:hover {
+    color:black !important;
+  }

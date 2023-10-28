@@ -9,7 +9,7 @@ const Redes = () => {
         <ul className="menu-redes">
           <li>
             <a href="https://github.com/DiegoDalera" target="_blank">
-            <Github color="white" size={32}/>
+            <Github className= "icons" />
             </a>
           </li>
           <li>
@@ -17,7 +17,7 @@ const Redes = () => {
               href="https://www.linkedin.com/in/diego-martin-dalera/"
               target="_blank"
             >
-              <Linkedin color="white" size={32} />
+              <Linkedin className= "icons"  />
             </a>
           </li>
           <li>
@@ -25,7 +25,7 @@ const Redes = () => {
               href="https://www.instagram.com/diegomartin.arg/"
               target="_blank"
             >
-              <Instagram color="white" size={32} />
+              <Instagram className= "icons"  />
             </a>
           </li>
         </ul>
