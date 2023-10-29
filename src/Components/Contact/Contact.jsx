@@ -16,8 +16,9 @@ const Contact = () => {
           method="post"
           class="contact-form bg-white"
         >
-          <div class="row">
-            <div class="col-lg-6 form-group">
+  
+
+            <div class="form-group">
               <input
                 type="text"
                 class="form-control"
@@ -26,7 +27,8 @@ const Contact = () => {
                 placeholder="Name"
               />
             </div>
-            <div class="col-lg-6 form-group">
+
+            <div class="form-group">
               <input
                 type="email"
                 class="form-control"
@@ -35,7 +37,8 @@ const Contact = () => {
                 placeholder="Email"
               />
             </div>
-          </div>
+  
+
           <div class="form-group">
             <input
               type="text"
@@ -61,7 +64,7 @@ const Contact = () => {
 
           <div class="form-btn text-center">
             <button class="button" type="submit">
-              Send Message
+              Enviar
             </button>
             <p class="form-message"></p>
           </div>
