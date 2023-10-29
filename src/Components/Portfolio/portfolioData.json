@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "imageUrl": "../../../public/proyectos/anto.jpg",
+    "imageUrl": "./public/proyectos/anto.jpg",
     "title": "Sistema de Turnos",
     "description": "Realizado en JS y Firebase ",
     "demoLink": "https://antoslashes.vercel.app/",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "imageUrl": "../../../public/proyectos/memotest.jpg",
+    "imageUrl": "./public/proyectos/memotest.jpg",
     "title": "Memotest",
     "description": "Juego de memoria creado con JS",
     "demoLink": "https://diegodalera.github.io/memoramaGame/",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "imageUrl": "../../../public/proyectos/carrito.jpg",
+    "imageUrl": "./public/proyectos/carrito.jpg",
     "title": "Carrito de compras",
     "description": "Carrito realizado con Javascript & Boostrap",
     "demoLink": "https://diegodalera.github.io/boostrapJavascriptEcomerce/",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "imageUrl": "../../../public/proyectos/piedra.jpg",
+    "imageUrl": "./public/proyectos/piedra.jpg",
     "title": "Piedra, Papel o Tijera",
     "description": "JUga con este juego creado en JS",
     "demoLink": "https://moonlit-moxie-0fedec.netlify.app/",

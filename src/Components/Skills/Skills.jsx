@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <div className="skills-title">
-        <h2>Mis habilidades</h2>
+        <h2>Mis Skills</h2>
       </div>
 
       {skillsData.map((skill, index) => (
