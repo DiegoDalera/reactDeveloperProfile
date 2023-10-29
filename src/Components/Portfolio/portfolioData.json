@@ -3,7 +3,7 @@
     "id": "1",
     "imageUrl": "./public/proyectos/anto.jpg",
     "title": "Sistema de Turnos",
-    "description": "Realizado en JS y Firebase ",
+    "description": "Sistema autoadministrable Realizado en JS y Firebase",
     "demoLink": "https://antoslashes.vercel.app/",
     "sourceLink": "https://github.com/DiegoDalera/turneroEstetica"
   },
@@ -35,7 +35,7 @@
     "id": "5",
     "imageUrl": "./public/proyectos/piedra.jpg",
     "title": "Piedra, Papel o Tijera",
-    "description": "JUga con este juego creado en JS",
+    "description": "Juga con este juego creado en JS",
     "demoLink": "https://moonlit-moxie-0fedec.netlify.app/",
     "sourceLink": "https://github.com/DiegoDalera/piedraPapelTijera"
   }

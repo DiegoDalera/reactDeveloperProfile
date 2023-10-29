@@ -1,7 +1,7 @@
 import React from "react";
 import './Card_p.css'
 
-const Card = ({ id, imageUrl, title, description }) => {
+const Card = ({ id, imageUrl, title, description, sourceLink }) => {
   return (
     <div className="item" id={id}>
       <img src={imageUrl} alt={title} />
@@ -9,7 +9,8 @@ const Card = ({ id, imageUrl, title, description }) => {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-      <div className="button">Learn More</div>
+
+      <a href={sourceLink} class="button" target="blank">Ver Github</a>
     </div>
   );
 };

@@ -12,13 +12,14 @@ const Portfolio = () => {
 
       <section>
         <div className="container">
-          {portfolioData.map(project => (
+          {portfolioData.map(data => (
             <Card
-              key={project.id}
-              id={project.id}
-              imageUrl={project.imageUrl}
-              title={project.title}
-              description={project.description}
+              key={data.id}
+              id={data.id}
+              imageUrl={data.imageUrl}
+              title={data.title}
+              description={data.description}
+              sourceLink={data.sourceLink}
             />
           ))}
         </div>
