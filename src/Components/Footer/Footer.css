@@ -23,3 +23,23 @@
 .redes_sociales a{
   margin: 5px;
 }
+
+.footer-icon{
+    color: white;
+    font-size: 22px;
+}
+
+.footer-icon:hover {
+    color:rgb(255, 201, 0) !important;
+  }
+
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .footer {
+     display: flex;
+     flex-direction: column;
+    }
+
+}
