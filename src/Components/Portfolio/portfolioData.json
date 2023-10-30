@@ -24,6 +24,14 @@
     "sourceLink": "https://github.com/DiegoDalera/boostrapJavascriptEcomerce"
   },
   {
+    "id": "4",
+    "imageUrl": "src/assets/proyectos/ifts16.jpg",
+    "title": "Piedra, Papel o Tijera",
+    "description": "Juga con este juego creado en JS",
+    "demoLink": "https://ifts16.com",
+    "sourceLink": "https://github.com/DiegoDalera/ifts16"
+  },
+  {
     "id": "5",
     "imageUrl": "src/assets/proyectos/piedra.jpg",
     "title": "Piedra, Papel o Tijera",
