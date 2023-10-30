@@ -1,0 +1,19 @@
+/* Spinner.css */
+.spinner {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out; 
+  }
+  
+  
+  .spinner .hidden {
+    opacity: 0; /* Cuando se oculta, la opacidad se establece en 0 gradualmente */
+    pointer-events: none; /* Evita eventos en el spinner oculto */
+  }
+  

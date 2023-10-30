@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "imageUrl": "./public/proyectos/anto.jpg",
+    "imageUrl": "src/assets/proyectos/anto.jpg",
     "title": "Sistema de Turnos",
     "description": "Sistema autoadministrable Realizado en JS y Firebase",
     "demoLink": "https://antoslashes.vercel.app/",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "imageUrl": "./public/proyectos/memotest.jpg",
+    "imageUrl": "src/assets/proyectos/memotest.jpg",
     "title": "Memotest",
     "description": "Juego de memoria creado con JS",
     "demoLink": "https://diegodalera.github.io/memoramaGame/",
@@ -17,23 +17,15 @@
   },
   {
     "id": "3",
-    "imageUrl": "./public/proyectos/carrito.jpg",
+    "imageUrl": "src/assets/proyectos/carrito.jpg",
     "title": "Carrito de compras",
     "description": "Carrito realizado con Javascript & Boostrap",
     "demoLink": "https://diegodalera.github.io/boostrapJavascriptEcomerce/",
     "sourceLink": "https://github.com/DiegoDalera/boostrapJavascriptEcomerce"
   },
   {
-    "id": "4",
-    "imageUrl": "https://images.unsplash.com/photo-1508124780861-b1687f9a13e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f841d43a63c085e930aa5b6b33e89a9f&auto=format&fit=crop&w=1385&q=80",
-    "title": "Snake Game",
-    "description": "EL juego de la serpiente creado con JS",
-    "demoLink": "https://snake-game-bay-theta.vercel.app/",
-    "sourceLink": "https://github.com/DiegoDalera/snakeGame"
-  },
-  {
     "id": "5",
-    "imageUrl": "./public/proyectos/piedra.jpg",
+    "imageUrl": "src/assets/proyectos/piedra.jpg",
     "title": "Piedra, Papel o Tijera",
     "description": "Juga con este juego creado en JS",
     "demoLink": "https://moonlit-moxie-0fedec.netlify.app/",
