@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "imageUrl": "./src/assets/proyectos/anto.jpg",
+    "imageUrl": "/proyectos/anto.jpg",
     "title": "Sistema de Turnos",
     "description": "Sistema autoadministrable Realizado en JS y Firebase",
     "demoLink": "https://antoslashes.vercel.app/",
