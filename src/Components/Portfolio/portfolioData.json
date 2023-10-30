@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "imageUrl": "./src/assets/proyectos/ifts16.jpg",
+    "imageUrl": "../src/assets/proyectos/ifts16.jpg",
     "title": "Piedra, Papel o Tijera",
     "description": "Juga con este juego creado en JS",
     "demoLink": "https://ifts16.com",
