@@ -26,27 +26,29 @@
     line-height: 1;
     background-image: linear-gradient(to right, black 50%, rgb(255, 201, 0) 50%);
     background-size: 100% 4px;
-    /* Ajusta el grosor de la línea según sea necesario */
     background-repeat: no-repeat;
     background-position: 0 100%;
-    /* Ajusta la posición de la línea según sea necesario */
+    
 }
 
 .portfolio .container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
+  
 }
 
 .portfolio .container  .item {
+  flex-grow: 1;
+  flex-basis: 300px;
+
   position: relative;
-  float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 320px;
-  max-width: 410px;
-  width: 100%;
+
+  width: 30%;
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
