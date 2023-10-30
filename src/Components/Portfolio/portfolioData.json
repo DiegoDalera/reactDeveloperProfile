@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "imageUrl": "./src/assets/proyectos/carrito.jpg",
+    "imageUrl": "../../../public/proyectos/carrito.jpg",
     "title": "Carrito de compras",
     "description": "Carrito realizado con Javascript & Boostrap",
     "demoLink": "https://diegodalera.github.io/boostrapJavascriptEcomerce/",
