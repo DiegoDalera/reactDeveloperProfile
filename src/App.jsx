@@ -59,31 +59,3 @@ function App() {
 export default App;
 
 
-  // return (
-  //   <>
-  //     <Navbar />
-
-  //     <div className="main">
-  //       <Element name="home">
-  //         <Header />
-  //       </Element>
-  //       <Element name="about">
-  //         <About />
-  //       </Element>
-  //       <Element name="skills">
-  //         <Skills />
-  //       </Element>
-  //       <Element name="Service">
-  //         <Services />
-  //       </Element>
-  //       <Element name="portfolio">
-  //         <Portfolio />
-  //       </Element>
-  //       <Element name="contact">
-  //         <Contact />
-  //       </Element>
-  //       <Footer />
-  //     </div>
-  //   </>
-//   );
-// }
