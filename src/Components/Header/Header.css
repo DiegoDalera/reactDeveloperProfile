@@ -75,10 +75,9 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) { /* Cambia este valor según tus necesidades */
+@media (max-width: 768px) {
     .hero-content {
       max-width: 100%;
     }
   
-
 }

@@ -1,5 +1,5 @@
-import React from "react";
-import './Card_p.css'
+/* eslint-disable react/prop-types */
+import "./Card_p.css";
 
 const Card = ({ id, imageUrl, title, description, sourceLink }) => {
   return (
@@ -9,8 +9,11 @@ const Card = ({ id, imageUrl, title, description, sourceLink }) => {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-
-      <a href={sourceLink} class="button" target="blank">Ver Github</a>
+      <div className="btn-github">
+        <a href={sourceLink} className="button" target="blank">
+          Ver Github
+        </a>
+      </div>
     </div>
   );
 };

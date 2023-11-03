@@ -1,13 +1,14 @@
 .card {
   width: 30%;
-  min-height: 300px;
+  min-height: 250px;
   padding: 15px;
   margin: 15px;
   background-color: #ffffff ;
   transition: background-color 1.5s, transform 1.5s, color 1.5s;
   border-radius: 3px;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: stretch;
   color: black;
 }
 

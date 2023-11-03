@@ -62,11 +62,27 @@
     margin-bottom: 5px;
 }
 
+.desc-experiencia .text-resum {
+    font-size: 22px;
+}
+
+.btn-experiencia {
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+.btn-experiencia:hover {
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
 
     .neon-circle {
-        width: 70vh; 
+        width: 70vh;
         height: 70Vh;
     }
 
@@ -75,7 +91,6 @@
     }
 
     .img-experiencia {
-
         margin-right: 0;
         margin-bottom: 20px;
         width: 100%;
