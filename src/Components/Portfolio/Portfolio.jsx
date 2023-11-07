@@ -6,13 +6,13 @@ import portfolioData from "./portfolioData.json"; // Importa los datos
 const Portfolio = () => {
   return (
     <div className="portfolio">
+
       <div className="portfolio-title">
         <h2>Portfolio</h2>
       </div>
 
-      <section>
-        <div className="container">
-          {portfolioData.map(data => (
+      <div className="row">
+      {portfolioData.map((data) => (
             <Card
               key={data.id}
               id={data.id}
@@ -22,8 +22,8 @@ const Portfolio = () => {
               sourceLink={data.sourceLink}
             />
           ))}
-        </div>
-      </section>
+
+      </div>
     </div>
   );
 };

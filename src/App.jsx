@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, Element } from "react-scroll";
+import { Element } from "react-scroll";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Components/Navbar/Navbar";
@@ -11,6 +11,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Services from "./Components/Services/Services";
 import Spinner from "./Components/Spinner/Spinner";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   const [count, setCount] = useState(0);
