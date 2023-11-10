@@ -26,10 +26,9 @@
     line-height: 1;
     background-image: linear-gradient(to right, black 50%, rgb(255, 201, 0) 50%);
     background-size: 100% 4px;
-    /* Ajusta el grosor de la línea según sea necesario */
     background-repeat: no-repeat;
     background-position: 0 100%;
-    /* Ajusta la posición de la línea según sea necesario */
+
 }
 
 .contact-form {
@@ -84,7 +83,7 @@
 }
 
 .contact-form .form-control {
-    background-color: #f8f9fa;
+    background-color: #efefef;
     font-size: 14px;
     padding: 10px;
     border: none;

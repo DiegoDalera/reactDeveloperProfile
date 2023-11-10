@@ -1,9 +1,18 @@
-import React from "react";
+import  { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import "./Services.css";
 
 function Services() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <div className="services">
+    <div className="services" data-aos="zoom-in-down">
       <div className="services-title">
         <h2>Enviame tu consulta</h2>
       </div>

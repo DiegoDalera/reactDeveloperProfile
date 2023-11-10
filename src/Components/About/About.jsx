@@ -2,7 +2,18 @@ import './About.css';
 import { useState } from 'react';
 import MiImagen from '../../assets/profile.jpg';
 
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function About() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+
   const [mostrarMas, setMostrarMas] = useState(false);
 
   const textoCompleto = (
@@ -38,7 +49,7 @@ function About() {
 
   const textoResumido = (
     <>
-      <p className='text-resum'>
+      <p className='text-resum' data-aos="fade-up">
         Soy desarrollador web y licenciado en gestión educativa con más de
         20 años de experiencia en el campo de la tecnología y la educación.
         Nacido en Argentina en 1971, desde muy joven me gustó la informática
@@ -53,7 +64,7 @@ function About() {
       <h2>Sobre mi</h2>
 
       <div className="experiencia">
-        <div className="neon-circle">
+        <div className="neon-circle" data-aos="fade-right">
           <img src={MiImagen} alt="Diego Dalera" className="img-experiencia" />
         </div>
 

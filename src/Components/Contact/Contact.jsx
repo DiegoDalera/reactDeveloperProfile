@@ -1,9 +1,19 @@
-import React from "react";
 import "./Contact.css";
 
+import  { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Contact = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+
   return (
-    <div className="contact">
+    <div className="contact" data-aos="zoom-in-up">
       <div className="contact-title">
         <h2>Contact Us</h2>
       </div>
@@ -14,24 +24,24 @@ const Contact = () => {
           id="contact-form"
           action="mail.php"
           method="post"
-          class="contact-form bg-white"
+          className="contact-form bg-white"
         >
   
 
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 name="name"
                 required=""
                 placeholder="Name"
               />
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 name="email"
                 required=""
                 placeholder="Email"
@@ -39,34 +49,34 @@ const Contact = () => {
             </div>
   
 
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               name="subject"
               required=""
               placeholder="Subject"
             />
           </div>
 
-          <div class="form-group">
+          <div className="form-group">
             <textarea
               name="message"
               id=""
-              class="form-control"
+              className="form-control"
               required=""
               placeholder="Message"
               data-lt-tmp-id="lt-591898"
-              spellcheck="false"
+              spellCheck="false"
               data-gramm="false"
             ></textarea>
           </div>
 
-          <div class="form-btn text-center">
-            <button class="button" type="submit">
+          <div className="form-btn text-center">
+            <button className="button" type="submit">
               Enviar
             </button>
-            <p class="form-message"></p>
+            <p className="form-message"></p>
           </div>
         </form>
       </div>
