@@ -21,23 +21,22 @@ const Card = ({ imageUrl, title, description, sourceLink }) => {
               <h2 className="w-title">{title}</h2>
               <div className="w-more">
                 <span className="w-description">{description}</span> /
-                
               </div>
             </div>
             <div className="col-sm-4">
               <div className="w-like">
-                <a href={sourceLink}>
-                  <span className="fa-brands fa-github"></span>
-                </a>
+                <div className="github-link">
+                  <a href={sourceLink} target="blank">
+                    <span className="fa-brands fa-github"></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
 };
 
 export default Card;
-

@@ -54,7 +54,6 @@
   text-align: justify;
 }
 
-
 /* Responsive */
 @media (max-width: 768px) { /* Cambia este valor según tus necesidades */
   .card {

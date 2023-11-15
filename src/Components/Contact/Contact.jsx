@@ -13,12 +13,12 @@ const Contact = () => {
 
 
   return (
-    <div className="contact" data-aos="zoom-in-up">
+    <div className="contact" >
       <div className="contact-title">
         <h2>Contact Us</h2>
       </div>
 
-      <div className="contact-form">
+      <div className="contact-form" data-aos="zoom-in-up">
         
         <form
           id="contact-form"

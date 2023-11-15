@@ -63,3 +63,24 @@ a {
 .fa-github{
     color:rgb(255,201,0)
 }
+
+
+.work-content{
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  
+  .w-description{
+    color: white;
+  }
+  
+  .work-box{
+    border: solid black 1px;
+  }
+  
+  .github-link{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+  }
