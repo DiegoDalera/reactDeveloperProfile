@@ -2,16 +2,16 @@
   {
     "id": "4",
     "imageUrl": "/proyectos/iftsThumb.jpg",
-    "title": "Piedra, Papel o Tijera",
-    "description": "Juga con este juego creado en JS",
-    "demoLink": "https://ifts16.com",
+    "title": "IFTS 16 web developer",
+    "description": "Sitio oficial del instituto de formacion tecnica superior N 16",
+    "demoLink": "https://diegodalera.github.io/ifts16",
     "sourceLink": "https://github.com/DiegoDalera/ifts16"
   },
   {
     "id": "1",
     "imageUrl": "/proyectos/piedraThumb.jpg",
     "title": "Piedra, Papel o Tijera",
-    "description": "Juga con este juego creado en JS",
+    "description": "Juga con este juego creado en utilizando solo Javascript",
     "demoLink": "https://moonlit-moxie-0fedec.netlify.app/",
     "sourceLink": "https://github.com/DiegoDalera/piedraPapelTijera"
   },
@@ -19,25 +19,8 @@
     "id": "5",
     "imageUrl": "/proyectos/antoSlashessThumb.jpg",
     "title": "Sistema de Turnos",
-    "description": "Sistema autoadministrable Realizado en JS y Firebase",
+    "description": "Sistema autoadministrable realizado con javascropt y Firebase",
     "demoLink": "https://antoslashes.vercel.app/",
     "sourceLink": "https://github.com/DiegoDalera/turneroEstetica"
-  },
-  {
-    "id": "2",
-    "imageUrl": "/proyectos/memotestThumb.jpg",
-    "title": "Memotest",
-    "description": "Juego de memoria creado con JS",
-    "demoLink": "https://diegodalera.github.io/memoramaGame/",
-    "sourceLink": "https://github.com/DiegoDalera/memoramaGame"
-  },
-  {
-    "id": "3",
-    "imageUrl": "/proyectos/carritoThumb.jpg",
-    "title": "Carrito de compras",
-    "description": "Carrito realizado con Javascript & Boostrap",
-    "demoLink": "https://diegodalera.github.io/boostrapJavascriptEcomerce/",
-    "sourceLink": "https://github.com/DiegoDalera/boostrapJavascriptEcomerce"
   }
-
 ]
