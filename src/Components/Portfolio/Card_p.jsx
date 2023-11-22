@@ -1,7 +1,16 @@
 /* eslint-disable react/prop-types */
 import "./Card_p.css";
+import Single_card from "./Single_card";
+import { useState } from "react";
 
-const Card = ({ imageUrl, title, description, sourceLink }) => {
+const Card = ({ id, imageUrl, title, description, sourceLink }) => {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = (event) => {
+    event.preventDefault();
+    setShowModal(!showModal);
+  };
+
   return (
     <div className="col-md-4">
       <div className="work-box">
@@ -30,11 +39,29 @@ const Card = ({ imageUrl, title, description, sourceLink }) => {
                     <span className="fa-brands fa-github"></span>
                   </a>
                 </div>
+
+                <div className="seeMore-link">
+                  <a href="#" onClick={toggleModal}>
+                    <span className="fa-solid fa-circle-info"></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {showModal && (
+        <Single_card
+          id={id}
+          imageUrl={imageUrl}
+          title={title}
+          description={description}
+          sourceLink={sourceLink}
+          onHide={toggleModal}
+        />
+      )}
+
     </div>
   );
 };

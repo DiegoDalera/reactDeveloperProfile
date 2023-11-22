@@ -1,7 +1,6 @@
-import React from "react";
 import "./Portfolio.css";
-import Card from "./Card_p"; // Importa el nuevo componente
-import portfolioData from "./portfolioData.json"; // Importa los datos
+import Card from "./Card_p"; 
+import portfolioData from "./portfolioData.json"; 
 
 const Portfolio = () => {
   return (

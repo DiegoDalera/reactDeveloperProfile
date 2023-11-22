@@ -15,10 +15,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
- 
 }
-
-
 
 .skills-title h2 {
     text-transform: uppercase;
@@ -36,7 +33,7 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) { /* Cambia este valor según tus necesidades */
+@media (max-width: 768px) {
     .skills {
         width: 100%;
         flex-direction:column;

@@ -1,18 +1,17 @@
+/* eslint-disable react/prop-types */
 
 import "./Card.css";
 
-import  { useEffect } from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Card = ({ link, icono, titulo, descripcion }) => {
-  
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
-  
-  
+
   return (
     <article className="card" data-aos="fade-left">
       <a href={link}>

@@ -28,12 +28,6 @@ function About() {
         sitios web para pequeñas empresas y organizaciones no gubernamentales.
       </p>
       <p>
-        Después de graduarme, comencé a trabajar como profesor de tecnología
-        y diseño en una escuela secundaria. Al mismo tiempo, empecé a
-        trabajar como desarrollador web independiente, creando sitios web
-        para pequeñas empresas y organizaciones no gubernamentales.
-      </p>
-      <p>
         A lo largo de los años, me he mantenido actualizado en las últimas
         tendencias y tecnologías en el campo del desarrollo web. Ha asistido
         a numerosos cursos y conferencias, y ha obtenido certificaciones en

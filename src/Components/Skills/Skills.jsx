@@ -1,4 +1,3 @@
-import React from "react";
 import "./Skills.css";
 import Card from "./Card";
 import skillsData from "./skillsData.json";
