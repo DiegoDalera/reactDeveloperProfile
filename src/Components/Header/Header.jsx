@@ -1,6 +1,5 @@
 import "./Header.css";
 import Navigation from "./Navigation";
-import Redes from "./Redes";
 import { Link } from "react-scroll";
 
 const Header = () => {
@@ -8,14 +7,19 @@ const Header = () => {
     <>
       <div className="hero-content h-100 ">
         <section className="quien_soy_info">
-          <h1>Diego Dalera</h1>
-          <h2>Licenciado en Gestion Educativa &amp; Desarrollador Web</h2>
+          <div className="content">
+            <h1>Diego Dalera</h1>
+            <h2>
+              Licenciado en Gestion Educativa &amp; Desarrollador Web
+              <span>&#160;</span>
+            </h2>
+          </div>
           <div className="links-header">
             <Link to="footer" className="btn" smooth={true} duration={1000}>
               Contáctame
             </Link>
             <a
-              href="archivos/cvDiegoDalera.pdf"
+              href="../../assets/cvDiegoDalera.pdf"
               className="btn"
               target="_blank"
             >
@@ -23,7 +27,7 @@ const Header = () => {
             </a>
           </div>
         </section>
-        <Redes />
+     
       </div>
 
       <div className="header">

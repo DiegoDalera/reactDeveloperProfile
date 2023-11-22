@@ -39,8 +39,33 @@
     margin: 10px;
     margin: 10px 0px;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 2.5vw;
+
 }
+
+
+.hero-content h2 { 
+	position: relative; 
+	float: left;
+	background:  #ffc900;
+	color: #000000;
+	font-size: 2em;
+}
+
+h2 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #ffc900;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
 
 .hero-content .quien_soy_info {
     display: flex;
