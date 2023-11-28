@@ -4,7 +4,32 @@ import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+import Swal from 'sweetalert2'
+
+
+
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs.sendForm('service_4j0epyr', 'template_07ipcom', form.current, 'x_qraMb1xSTrBxKT6')
+      .then((result) => {
+          console.log(result.text);
+          form.current.reset(); 
+          Swal.fire("Email enviado con éxito");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+  
 
   useEffect(() => {
     AOS.init();
@@ -21,6 +46,7 @@ const Contact = () => {
       <div className="contact-form" data-aos="zoom-in-up">
         
         <form
+        ref={form} onSubmit={sendEmail}
           id="contact-form"
           action="mail.php"
           method="post"
@@ -32,7 +58,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control"
-                name="name"
+                name="user_name"
                 required=""
                 placeholder="Name"
               />
@@ -42,7 +68,7 @@ const Contact = () => {
               <input
                 type="email"
                 className="form-control"
-                name="email"
+                name="user_email"
                 required=""
                 placeholder="Email"
               />
@@ -73,7 +99,7 @@ const Contact = () => {
           </div>
 
           <div className="form-btn text-center">
-            <button className="button" type="submit">
+            <button className="button" type="submit" value="Send">
               Enviar
             </button>
             <p className="form-message"></p>

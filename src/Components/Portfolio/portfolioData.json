@@ -1,25 +1,25 @@
 [
   {
     "id": "1",
-    "imageUrl": "/proyectos/iftsThumb.jpg",
+    "imageUrl": "/proyectos/ifts/iftsThumb.jpg",
     "title": "IFTS 16  - Web",
-    "description": "Desarrollé un sitio web educativo centrado en proporcionar información detallada sobre las carreras y programas de estudio en el Instituto de Formación Técnica Superior N° 16. Este proyecto implicó la planificación, diseño, y desarrollo web desde cero, con un enfoque en la usabilidad, accesibilidad y diseño responsivo. El proyecto resultó en un sitio web informativo, funcional y visualmente atractivo que refleja una comprensión profunda de las prácticas de desarrollo web modernas y la importancia de una buena experiencia de usuario.",
+    "description": "Desarrollé este sitio web para una institucion educativa centrandome  en proporcionar información detallada sobre las carreras y programas de estudio en el Instituto de Formación Técnica Superior N° 16. Este proyecto implicó la planificación, diseño, y desarrollo web desde cero, con un enfoque en la usabilidad, accesibilidad y diseño responsivo. El resultado final esn un sitio web informativo, funcional y visualmente atractivo que refleja una comprensión profunda de las prácticas de desarrollo web modernas y la importancia de una buena experiencia de usuario.",
     "demoLink": "https://diegodalera.github.io/ifts16",
     "sourceLink": "https://github.com/DiegoDalera/ifts16"
   },
   {
     "id": "2",
-    "imageUrl": "/proyectos/antoSlashessThumb.jpg",
+    "imageUrl": "/public/proyectos/menu/menuThumb.jpg",
     "title": "Menu Digital",
-    "description": "Desarrollé una aplicación de menú digital utilizando React y Firebase, diseñada para ofrecer una experiencia de usuario interactiva y eficiente en la presentación de menús de restaurantes y su administracion. Este proyecto abarcó desde la conceptualización hasta la implementación, utilizando las mejores prácticas de desarrollo web moderno. El proyecto resultó en una aplicación de menú digital interactiva y fácil de usar, destacando mi capacidad para crear soluciones de software elegantes y eficientes utilizando las últimas tecnologías y marcos de desarrollo web.",
-    "demoLink": "https://antoslashes.vercel.app/",
+    "description": "Desarrollé esta aplicación de menú digital utilizando React, Contex Api  y Firebase. La diseñe  para ofrecer una experiencia de usuario interactiva y eficiente en la presentación de menús de restaurantes , realizacion de pedidos  y su completa administracion. Este proyecto abarcó desde la conceptualización hasta la implementación, utilizando las mejores prácticas de desarrollo web moderno. El proyecto resultó en una aplicación de menú digital interactiva y fácil de usar. Considero que es una  implementacion de software elegante y eficiente  se utilizaron  las últimas tecnologías y marcos de desarrollo web.",
+    "demoLink": "https://digital-menu-indol.vercel.app/",
     "sourceLink": "https://github.com/DiegoDalera/turneroEstetica"
   },
   {
     "id": "3",
-    "imageUrl": "/proyectos/antoSlashessThumb.jpg",
-    "title": "Turnero",
-    "description": "Este proyecto consistió en el desarrollo de una aplicación web para la gestión de turnos en un salón de estética. Mi objetivo fue crear una herramienta intuitiva y eficiente que permitiera a los usuarios reservar, modificar y cancelar turnos de manera fácil y accesible. El proyecto culminó en una solución efectiva y fácil de usar para la gestión de turnos, resaltando mis habilidades en el desarrollo de aplicaciones web y mi capacidad para abordar y resolver problemas prácticos mediante la tecnología.",
+    "imageUrl": "./proyectos/turnero/antoSlashessThumb.jpg",
+    "title": "Sistema de Turnos",
+    "description": "Este proyecto nacio de la necesidad de construir un sistema de turnos que se adaptara a las necesidades de la empresa y consistió en el desarrollo de una aplicación web para la gestión de turnos en un salón de estética donde se guarda todo en la nube utilizando Firebase. Mi objetivo fue crear una herramienta intuitiva y eficiente que permitiera a los usuarios reservar turnos de manera fácil y accesible. El proyecto culminó en una solución efectiva y fácil de usar para la gestión de turnos, resaltando mis habilidades en el desarrollo de aplicaciones web y mi capacidad para abordar y resolver problemas prácticos mediante la tecnología.",
     "demoLink": "https://antoslashes.vercel.app/",
     "sourceLink": "https://github.com/DiegoDalera/turneroEstetica"
   }
