@@ -2,28 +2,32 @@
 /* eslint-disable react/prop-types */
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import './Single_card.css'
+import "./Single_card.css";
 
-const Single_card = ({ imageUrl, title, description, onHide  }) => {
+const Single_card = ({ imageUrl, title, description, onHide }) => {
   return (
     <>
-      <Modal show={true} onHide={onHide}>
+      <Modal show={true} onHide={onHide} size="lg">
         <Modal.Header>
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>
           <div className="slider-proyect">
-            <img src={imageUrl} alt=""  className="proyect-img"/>
+            <img src={imageUrl} alt="" className="proyect-img" />
           </div>
-        </Modal.Body>
 
-        <div className="description-text">
+          <div className="description-text">
           <p className="descriptioTextP">{description}</p>
         </div>
+        </Modal.Body>
+
+  
 
         <Modal.Footer>
-          <Button onClick={onHide} variant="success">Success</Button>{" "}
+          <Button onClick={onHide} variant="success">
+            Cerrar
+          </Button>{" "}
         </Modal.Footer>
       </Modal>
     </>

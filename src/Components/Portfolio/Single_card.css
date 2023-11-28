@@ -1,3 +1,8 @@
 .proyect-img{
     width: 100%;
 }
+
+.description-text{
+    padding: 20px;
+    text-align: justify;
+}

@@ -95,3 +95,11 @@ a {
     gap: 10px;
 
   }
+
+  .alingCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+    
+  }
