@@ -2,6 +2,7 @@ import "./Header.css";
 import Navigation from "./Navigation";
 import { Link } from "react-scroll";
 
+
 const Header = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Header = () => {
               Contáctame
             </Link>
             <a
-              href="../../assets/cvDiegoDalera.pdf"
+              href="/assets/cvDiegoDalera.pdf"
               className="btn"
               target="_blank"
             >
