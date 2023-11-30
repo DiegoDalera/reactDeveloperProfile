@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "imageUrl": "/public/proyectos/menu/menuThumb.png",
+    "imageUrl": "/proyectos/menu/menuThumb.png",
     "title": "Menu Digital",
     "description": "Desarrollé esta aplicación de menú digital utilizando React, Contex Api  y Firebase. La diseñe  para ofrecer una experiencia de usuario interactiva y eficiente en la presentación de menús de restaurantes , realizacion de pedidos  y su completa administracion. Este proyecto abarcó desde la conceptualización hasta la implementación, utilizando las mejores prácticas de desarrollo web moderno. El proyecto resultó en una aplicación de menú digital interactiva y fácil de usar. Considero que es una  implementacion de software elegante y eficiente  se utilizaron  las últimas tecnologías y marcos de desarrollo web.",
     "demoLink": "https://digital-menu-indol.vercel.app/",
